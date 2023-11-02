@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> EXPOTEC 2023 - LOGIN </title>
+        <style>
+            #logoExpotec{
+                text-align: center;
+                background-color: rgb(255, 255, 255);
+            }
+            form{
+                text-align: center;
+                width:50%;
+                margin:auto;
+                border: 1px solid #a83dd3;
+                color:rgb(102, 9, 131);
+            }
+            body{
+                background-color: rgb(218, 143, 241);
+            }
+            label{
+                text-align: justify;
+            }
+            h1{
+                text-align: center;
+                color:rgb(102, 9, 131);
+            }
+            .rodape{
+                text-align: center;
+                margin-top: 4cm;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="logoExpotec">
+            <img src="fotos-expotec/EXPOTEC-LOGO.png" alt="logoExpotec" width="300">
+        </div>
+        <h1>Faça sua inscrição ;)</h1>
+       
+        <form method= "post" action= "#">
+            <label>Nome:<input type="text" name="nome" /></label><br />
+            <label for="telefone"> Telefone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="tel" required/></br>
+            <label for="Campus"> Campus: </label>
+                <select name="Campus">
+                    <option value= '---'> --- </option>
+                    <option value= 'Apodi'> Apodi </option>
+                    <option value= 'Caicó'> Caicó </option>
+                    <option value= 'Canguaratema'> Canguaratema </option>
+                    <option value= 'Ceará-Mirim'>Ceará-Mirim</option>
+                    <option value= 'Currais Novos'>Currais Novos</option>
+                    <option value= 'Ipanguaçu'>Ipanguaçu</option>
+                    <option value= 'João Câmara'>João Câmara</option>
+                    <option value= 'Jucurutu'>Jucurutu</option>
+                    <option value= 'Lajes'>Lajes</option>
+                    <option value= 'Macau'>Macau</option>
+                    <option value= 'Mossoró'>Mossoró</option>
+                    <option value= 'Natal-Central'>Natal-Central</option>
+                    <option value= 'Natal-Cidade Alta'>Natal-Cidade Alta</option>
+                    <option value= 'Natal-Zona Leste'>Natal-Zona Leste</option>
+                    <option value= 'Natal-Zona Norte'>Natal-Zona Norte</option>
+                    <option value= 'Nova Cruz'>Nova Cruz</option>
+                    <option value= 'Parelhas'> Parelhas </option>
+                    <option value= 'Parnamirim'> Parnamirim </option>
+                    <option value= 'Paus dos Ferros'> Canguaratema </option>
+                    <option value= 'Santa Cruz'>Santa Cruz</option>
+                    <option value= 'São Gonçalo do Amarante'>São Gonçalo do Amarante</option>
+                    <option value= 'São Paulo do Potengi'>São Paulo do Potengi</option>
+                    <option value= 'Reitoria'>Reitoria</option>
+                </select></br>
+            <label for="sexo"> Sexo: </label></br>
+                <input type="radio" id="sexo1" name="sexo1" value="F"/>
+            <label for="sexo1"> Feminino </label></br>
+                <input type="radio" id="sexo2" name="sexo1" value="M"/>
+            <label for="sexo2"> Masculino </label></br>
+                <input type="radio" id="sexo3" name="sexo3" value="N"/>
+            <label for="sexo3"> Prefiro não comentar</label><br/>
+            <P><b>Crie um login :)</b></P>
+            <label>E-mail:<input type="email" name="email"/></label><br />
+            <label>Senha: <input type="password"/> </label><br/>
+            <a href="expotec-programação.html"><img src="fotos-expotec/inscrever-se.jpeg" width="200"></a>
+        </form>
+        <div class="rodape">
+            <img src="fotos-expotec/if-logo-branco.jpeg" width="80">
+        </div>
+    </body>
+</html>
